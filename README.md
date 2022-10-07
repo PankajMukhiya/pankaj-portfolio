@@ -1,7 +1,7 @@
 #  Preview Link :   https://pankaj-portfolio.netlify.app/
 
 
-#  Github Link :    https://github.com/PankajMukhiya/pankaj-portfoli
+#  Github Link :    https://github.com/PankajMukhiya/pankaj-portfolio
 
 ### This is the my modern UI/UX Portfolio. In which I used Reactjs & Sanity
 
