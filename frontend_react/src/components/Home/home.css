@@ -1,0 +1,26 @@
+.containerHome {
+  width: 100%;
+  height: 88vh;
+  /* background-image: url(../../assets/Images/bgImage.png); */
+}
+.homeH1 {
+  color: rgb(198, 193, 193);
+  font-size: 2.5rem;
+}
+.homeH1:hover {
+  color: #64ffda;
+}
+
+.pankajLetterSize {
+  font-size: 2.5rem;
+}
+.homeNavlink {
+  border: 1px solid #64ffda;
+  color: white;
+  
+  border-radius: 10px;
+}
+.homeNavlink:hover {
+  border: none;
+  color: #64ffda;
+}

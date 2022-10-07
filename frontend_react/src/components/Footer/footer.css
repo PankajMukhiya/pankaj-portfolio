@@ -1,0 +1,24 @@
+.socialMediaIcon,
+.instagramIconm,
+.githubIcon,
+.linkedInIcon,
+.facebookIcon {
+  color: white;
+  transition: 1s ease-in-out;
+}
+.instagramIcon:hover {
+  color: #ec0778;
+}
+.githubIcon:hover {
+  color: tomato;
+}
+.linkedInIcon:hover {
+  color: #0961b8;
+}
+.facebookIcon:hover {
+  color: #0976e0;
+}
+
+.footerRow{
+  height: 20vh;
+}

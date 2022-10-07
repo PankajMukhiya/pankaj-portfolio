@@ -1,0 +1,32 @@
+.containerAbout {
+  width: 100%;
+  /* height: 88vh; */
+  /* background-image: url(../../assets/Images/bgImage.png); */
+}
+
+.h3About {
+  color: #edb15c;
+}
+.aboutTitle {
+  color: rgb(211, 211, 211);
+  font-size: 21px;
+}
+.aboutDesc {
+  color: rgb(173, 172, 172);
+  font-size: 18px;
+}
+.ptagAbout {
+  color: rgb(173, 172, 172);
+  font-size: 18px;
+}
+.text-danger-aboutIcon {
+  color: #64ffda;
+}
+.aboutImage {
+  opacity: 0.5;
+  cursor: pointer;
+  
+}
+.aboutImage:hover {
+  opacity: 1;
+}

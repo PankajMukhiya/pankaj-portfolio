@@ -1,0 +1,23 @@
+.skillsContainer {
+  width: 100%;
+  /* height: 88vh; */
+  /* background-image: url(../../assets/Images/bgImage.png); */
+}
+.underlineMakerDiv {
+  width: 50%;
+  height: 1px;
+  background: rgb(164, 132, 238);
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:auto;
+}
+.skillPtagColor{
+  color: rgb(201, 201, 201);
+}
+.skillH4Tag{
+  color: rgb(137, 223, 244);
+}
+.exprienceH4Tag{
+  color: rgb(255, 231, 126);
+}

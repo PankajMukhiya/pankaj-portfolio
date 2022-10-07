@@ -1,0 +1,9 @@
+.containerContact {
+  width: 100%;
+  height: 88vh;
+  /* background-image: url(../../assets/Images/bgImage.png); */
+}
+.headinUnderLineDiv {
+  height: 2px;
+  background: #64ffda;
+}

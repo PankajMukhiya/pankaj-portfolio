@@ -1,0 +1,11 @@
+/* .nav-link:hover{
+   background-color: rgba(37, 37, 37, 0.975);
+   border-radius: 5px solid;  
+} */
+
+.activeItemNavbar {
+   background: #537179;
+   padding: 3px 15px;
+   border-radius: 50px;
+   border-bottom: 3px solid red;
+ }
