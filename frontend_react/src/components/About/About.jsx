@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { client, urlFor } from "../../sanitySetup";
+import * as Icon from 'react-feather'
 import MetaData from "../MetaData";
-import ArrowRightIcon from "@material-ui/icons/ArrowRight";
-import CakeIcon from "@material-ui/icons/Cake";
-import DateRangeIcon from "@material-ui/icons/DateRange";
-import MenuBookIcon from "@material-ui/icons/MenuBook";
-import SchoolIcon from "@material-ui/icons/School";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
+// import ArrowRightIcon from "@material-ui/icons/ArrowRight";
+// import CakeIcon from "@material-ui/icons/Cake";
+// import DateRangeIcon from "@material-ui/icons/DateRange";
+// import MenuBookIcon from "@material-ui/icons/MenuBook";
+// import SchoolIcon from "@material-ui/icons/School";
+// import EmailIcon from "@material-ui/icons/Email";
+// import PhoneIcon from "@material-ui/icons/Phone";
 import "./about.css";
 import { motion } from "framer-motion";
 import MyLoader from "../Containers/Loader/MyLoader";
@@ -106,50 +107,50 @@ const About = () => {
                         </div>
                         <div className="col-6 mx-auto d-flex justify-content-start ">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> JavaScript
+                            <Icon.ChevronRight className="fs-1" /> JavaScript
                             (ES6+)
                           </p>
                         </div>
                         <div className="col-6 mx-auto ">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> React
+                            <Icon.ChevronRight className="fs-1" /> React
                           </p>
                         </div>
                         <div className="col-6 mx-auto d-flex justify-content-start">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1 " /> Nodejs
+                            <Icon.ChevronRight className="fs-1 " /> Nodejs
                           </p>
                         </div>
                         <div className="col-6 mx-auto ">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> Sanity
+                            <Icon.ChevronRight className="fs-1" /> Sanity
                           </p>
                         </div>
                         <div className="col-6 mx-auto d-flex justify-content-start">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> MongoDb
+                            <Icon.ChevronRight className="fs-1" /> MongoDb
                           </p>
                         </div>
                         <div className="col-6 mx-auto ">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> Redux
+                            <Icon.ChevronRight className="fs-1" /> Redux
                           </p>
                         </div>
                         <div className="col-6 mx-auto d-flex justify-content-start">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> Bootstrap
+                            <Icon.ChevronRight className="fs-1" /> Bootstrap
                           </p>
                         </div>
                         <div className="col-6 mx-auto ">
                           <p className="aboutDesc">
-                            <ArrowRightIcon className="fs-1" /> Firebase
+                            <Icon.ChevronRight className="fs-1" /> Firebase
                           </p>
                         </div>
                       </div>
                       <div className="row mt-3">
                         <div className="col-9 col-md-5 mx-auto d-flex justify-content-start align-items-center">
                           <p>
-                            <CakeIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Gift className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Birthday: </p>
@@ -159,7 +160,7 @@ const About = () => {
                         </div>
                         <div className="col-9 col-md-5 mx-auto  d-flex justify-content-start align-items-center">
                           <p>
-                            <DateRangeIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Calendar className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Age: </p>
@@ -169,7 +170,7 @@ const About = () => {
                         </div>
                         <div className="col-9 col-md-5 mx-auto d-flex justify-content-start align-items-center">
                           <p>
-                            <MenuBookIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Book className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Study: </p>
@@ -179,7 +180,7 @@ const About = () => {
                         </div>
                         <div className="col-9 col-md-5 mx-auto d-flex justify-content-start align-items-center">
                           <p>
-                            <SchoolIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Home className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Degree: </p>
@@ -189,7 +190,7 @@ const About = () => {
                         </div>
                         <div className="col-12 col-md-5 mx-auto  d-flex justify-content-start align-items-center">
                           <p>
-                            <EmailIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Mail className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Mail: </p>
@@ -199,7 +200,7 @@ const About = () => {
                         </div>
                         <div className="col-9 col-md-5 mx-auto  d-flex justify-content-start align-items-center">
                           <p>
-                            <PhoneIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                            <Icon.Phone className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                           </p>
 
                           <p className="ptagAbout  mx-1">Phone: </p>

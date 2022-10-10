@@ -1,8 +1,9 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GithubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import * as Icon from 'react-feather'
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import GithubIcon from "@material-ui/icons/GitHub";
+// import InstagramIcon from "@material-ui/icons/Instagram";
+// import FacebookIcon from "@material-ui/icons/Facebook";
 const SocialMedia = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedInIcon className="linkedInIcon fs-1 " />
+          <Icon.Linkedin className="linkedInIcon fs-1 " />
         </a>
         {/* github */}
         <a
@@ -24,7 +25,7 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubIcon className="githubIcon  fs-1 " />
+          <Icon.GitHub className="githubIcon  fs-1 " />
         </a>
         {/* instagram  */}
         <a
@@ -33,7 +34,7 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <InstagramIcon className=" instagramIcon fs-1 " />
+          <Icon.Instagram className=" instagramIcon fs-1 " />
         </a>
         {/* facebook */}
         <a
@@ -42,7 +43,7 @@ const SocialMedia = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FacebookIcon className="facebookIcon fs-1 " />
+          <Icon.Facebook className="facebookIcon fs-1 " />
         </a>
       </div>
     </>

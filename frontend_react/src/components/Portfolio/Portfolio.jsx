@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./portfolio.css";
-import GithubIcon from "@material-ui/icons/GitHub";
-import PreviewIcon from "@material-ui/icons/Visibility";
+import * as Icon from 'react-feather'
+// import GithubIcon from "@material-ui/icons/GitHub";
+// import PreviewIcon from "@material-ui/icons/Visibility";
 import { motion } from "framer-motion";
 import { client, urlFor } from "../../sanitySetup";
 import MetaData from "../MetaData";
@@ -159,7 +160,7 @@ const Portfolio = () => {
                               whileHover={{ scale: [1, 1.25] }}
                               className="iconDiv d-flex justify-content-center align-items-center mx-1"
                             >
-                              <GithubIcon className="icon" />
+                              <Icon.GitHub className="icon" />
                             </motion.div>
                           </a>
                           <a
@@ -171,7 +172,7 @@ const Portfolio = () => {
                               whileHover={{ scale: [1, 1.25] }}
                               className="iconDiv d-flex justify-content-center align-items-center mx-1"
                             >
-                              <PreviewIcon className="icon" />
+                              <Icon.Eye className="icon" />
                             </motion.div>
                           </a>
                         </motion.div>

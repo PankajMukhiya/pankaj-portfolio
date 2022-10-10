@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
+// import PhoneIcon from "@material-ui/icons/Phone";
+// import EmailIcon from "@material-ui/icons/Email";
+import * as Icon from 'react-feather'
 import "./contact.css";
 import { client } from "../../sanitySetup";
 import { motion } from "framer-motion";
@@ -48,7 +49,7 @@ const Contact = () => {
                       transition={{ duration: 1.2, type: "tween" }}
                       className="col-9 col-md-5  mx-auto border border-1 border-primary rounded-3 d-flex justify-content-start align-items-center mt-2 py-2"
                     >
-                      <EmailIcon className="text-success  mx-1 mb-2 fs-1" />
+                      <Icon.Mail className="text-success  mx-1 mb-2 fs-1" />
                       <span className="mx-1 aboutDesc">
                         {contactsInfo && contactsInfo[0].email}
                       </span>
@@ -58,7 +59,7 @@ const Contact = () => {
                       transition={{ duration: 1.2, type: "spring" }}
                       className="col-9 col-md-5  mx-auto  border border-1 border-primary rounded-3 d-flex justify-content-start align-items-center mt-2 py-2"
                     >
-                      <PhoneIcon className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
+                      <Icon.Phone className="text-danger-aboutIcon  mx-1 mb-2 fs-1" />
                       <span className="mx-1 aboutDesc">
                         +{contactsInfo && contactsInfo[0].phoneNo}
                       </span>
