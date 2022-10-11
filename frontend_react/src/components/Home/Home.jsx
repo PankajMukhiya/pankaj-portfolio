@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import React from "react";
 import { NavLink } from "react-router-dom";
+import images from "../../assets/images";
 import "./home.css";
 const Home = () => {
   const scaleVariants = {
@@ -13,6 +13,7 @@ const Home = () => {
       },
     },
   };
+
   return (
     <>
       <div className="container-fluid containerHome d-flex justify-content-center align-items-center ">
@@ -50,14 +51,26 @@ const Home = () => {
               Full Stack Developer | Frontend Developer | Backend Developer
             </p>
           </motion.div>
-          <div className="col-9 mx-auto">
-            <div className="col-6 col-md-4 ">
+          <div className="col-9 mx-auto d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div className=" mb-3 ">
               <NavLink
                 className="nav-link homeNavlink text-center text-uppercase"
                 to="/contact"
               >
                 Contact Me
               </NavLink>
+            </div>
+            <div className="">
+              <a
+                href={images.MyResumePdf}
+                // href="./Pankaj_Resume.pdf"
+                download="Pankaj_Resume"
+                // target="_blank"
+              >
+                <button type="button" className="homeNavlink btn btn-lg btn-block">
+                  Download Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
