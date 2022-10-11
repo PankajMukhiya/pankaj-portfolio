@@ -51,8 +51,8 @@ const Home = () => {
               Full Stack Developer | Frontend Developer | Backend Developer
             </p>
           </motion.div>
-          <div className="col-9 mx-auto d-flex flex-column flex-md-row justify-content-between align-items-center">
-            <div className=" mb-3 ">
+          <div className="col-9 mx-auto d-flex flex-column justify-content-start align-items-start">
+            <div className=" mb-2 ">
               <NavLink
                 className="nav-link homeNavlink text-center text-uppercase"
                 to="/contact"
